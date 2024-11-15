@@ -1,0 +1,148 @@
+import { NextResponse } from 'next/server'
+
+export async function GET() {
+  const projects = [
+    {
+      id: 1,
+      description: 'Adpoints',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/adpoints.png',
+    },
+    {
+      id: 2,
+      description: 'Arbo',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/arbo.png',
+    },
+    {
+      id: 3,
+      description: 'Edebe',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/edebe.png',
+    },
+    {
+      id: 4,
+      description: 'Iqr',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/iqr.png',
+    },
+    {
+      id: 5,
+      description: 'Mundo Facens',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/mundo_facens.png',
+    },
+    {
+      id: 6,
+      description: 'Sama',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/sama.png',
+    },
+    {
+      id: 7,
+      description: 'Terrex',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/terrex.png',
+    },
+    {
+      id: 8,
+      description: 'Tintim',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/tintim.png',
+    },
+    {
+      id: 9,
+      description: 'Toolbox',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/toolbox.png',
+    },
+    {
+      id: 10,
+      description: 'Usina',
+      tags: [
+        'NestJs',
+        'Angular',
+        'Nebular',
+        'Ionic',
+        'AWS',
+        'Lambda',
+        'CloudFront',
+      ],
+      image: '/projects/usina.png',
+    },
+  ]
+
+  return NextResponse.json(projects)
+}
