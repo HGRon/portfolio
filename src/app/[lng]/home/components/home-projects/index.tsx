@@ -46,7 +46,7 @@ export default async function HomeProjects() {
 }
 
 async function fetchProjects(): Promise<Project[]> {
-  const res = await fetch(`http://localhost:3000/en/api/portfolio/main`)
+  const res = await fetch(`${process.env.BASE_URL}/en/api/portfolio/main`)
 
   if (!res.ok) throw new Error('Failed to fetch projects')
 
